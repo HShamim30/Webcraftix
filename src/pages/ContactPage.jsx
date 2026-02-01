@@ -22,8 +22,8 @@ const contactMethods = [
     icon: MessageCircle,
     title: 'WhatsApp',
     description: 'Get instant responses',
-    value: '+1 234 567 890',
-    action: 'https://wa.me/1234567890?text=Hi%20Webcraftix!%20I%20would%20like%20to%20discuss%20a%20project.',
+    value: '+91 9769068742',
+    action: 'https://wa.me/9769068742?text=Hi%20Webcraftix!%20I%20would%20like%20to%20discuss%20a%20project.',
     actionText: 'Chat Now',
     gradient: 'from-green-500 to-emerald-500',
     primary: true
@@ -32,8 +32,8 @@ const contactMethods = [
     icon: Mail,
     title: 'Email',
     description: 'For detailed inquiries',
-    value: 'hello@webcraftix.com',
-    action: 'mailto:hello@webcraftix.com',
+    value: 'webcraftix94@gmail.com',
+    action: 'mailto:webcraftix94@gmail.com',
     actionText: 'Send Email',
     gradient: 'from-blue-500 to-cyan-500',
     primary: false
@@ -42,8 +42,8 @@ const contactMethods = [
     icon: Phone,
     title: 'Phone',
     description: 'Direct consultation',
-    value: '+1 234 567 890',
-    action: 'tel:+1234567890',
+    value: '+91 9769068742',
+    action: '+91 9769068742',
     actionText: 'Call Us',
     gradient: 'from-violet-500 to-purple-500',
     primary: false
@@ -71,7 +71,6 @@ const faqs = [
 
 const socialLinks = [
   { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:bg-blue-600' },
-  { icon: Twitter, href: '#', label: 'Twitter', color: 'hover:bg-sky-500' },
   { icon: Instagram, href: '#', label: 'Instagram', color: 'hover:bg-pink-600' },
   { icon: Github, href: '#', label: 'GitHub', color: 'hover:bg-gray-700' }
 ]
