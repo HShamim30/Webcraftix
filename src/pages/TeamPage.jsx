@@ -23,8 +23,8 @@ const teamMembers = [
     name: 'Huzaifa Shamim',
     role: 'Founder & Lead Developer',
     image: Huzaifa,
-    bio: 'Full-stack developer with 8+ years of experience building scalable web applications. Passionate about clean code and user-centric design.',
-    skills: ['React', 'Node.js', 'MongoDB', 'TypeScript'],
+    bio: 'Full-stack developer with 3+ years of experience building scalable web applications. Passionate about clean code and user-centric design.',
+    skills: ['React', 'Node.js', 'MongoDB', 'Express.js'],
     social: {
       linkedin: 'https://www.linkedin.com/in/huzaifa-shamim-ahmad/',
       github: 'https://github.com/HShamim30'
