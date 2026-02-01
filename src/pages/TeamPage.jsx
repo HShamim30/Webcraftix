@@ -21,7 +21,7 @@ import Takmil from "../../Images/Yusuf.jpeg";
 const teamMembers = [
   {
     name: 'Huzaifa Shamim',
-    role: 'Founder & Lead Developer',
+    role: 'CEO',
     image: Huzaifa,
     bio: 'Full-stack developer with 3+ years of experience building scalable web applications. Passionate about clean code and user-centric design.',
     skills: ['React', 'Node.js', 'MongoDB', 'Express.js'],
@@ -32,7 +32,7 @@ const teamMembers = [
   },
   {
     name: 'Yusuf Ali',
-    role: 'UI/UX Design Lead',
+    role: 'CMO',
     image: Yusuf,
     bio: 'Award-winning designer focused on creating intuitive digital experiences. Believes in the power of design thinking to solve complex problems.',
     skills: ['Figma', 'UI Design', 'Prototyping', 'User Research'],
@@ -43,7 +43,7 @@ const teamMembers = [
   },
   {
     name: 'Hamza Shabbir',
-    role: 'Senior Frontend Developer',
+    role: 'CTO',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80',
     bio: 'Frontend specialist with expertise in React ecosystem. Obsessed with performance optimization and accessibility.',
     skills: ['React', 'Next.js', 'Tailwind', 'JavaScript'],
@@ -54,7 +54,7 @@ const teamMembers = [
   },
   {
     name: 'Takmil Baddar',
-    role: 'Backend Developer',
+    role: 'CPO',
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80',
     bio: 'Backend engineer specializing in API design and database architecture. Advocates for secure and scalable solutions.',
     skills: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL'],
@@ -66,8 +66,8 @@ const teamMembers = [
 ]
 
 const stats = [
-  { icon: Award, value: '50+', label: 'Projects Completed' },
-  { icon: Users, value: '40+', label: 'Happy Clients' },
+  { icon: Award, value: '10', label: 'Projects Completed' },
+  { icon: Users, value: '10', label: 'Happy Clients' },
   { icon: Coffee, value: '10K+', label: 'Cups of Coffee' },
   { icon: Heart, value: '100%', label: 'Passion' }
 ]
@@ -235,13 +235,6 @@ function TeamMemberCard({ member, index, isVisible }) {
               aria-label={`${member.name}'s LinkedIn`}
             >
               <Linkedin size={18} />
-            </a>
-            <a
-              href={member.social.twitter}
-              className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-white/30 transition-colors"
-              aria-label={`${member.name}'s Twitter`}
-            >
-              <Twitter size={18} />
             </a>
             <a
               href={member.social.github}
