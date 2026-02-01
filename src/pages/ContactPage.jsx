@@ -268,7 +268,7 @@ function WhatsAppCard() {
           </div>
           
           <a
-            href="https://wa.me/1234567890?text=Hi%20Webcraftix!%20I%20would%20like%20to%20discuss%20a%20project."
+            href="https://wa.me/9769068742?text=Hi%20Webcraftix!%20I%20would%20like%20to%20discuss%20a%20project."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 bg-white text-green-600 font-semibold rounded-full hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
