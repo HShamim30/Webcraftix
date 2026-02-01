@@ -13,77 +13,52 @@ import {
   Coffee,
   Heart
 } from 'lucide-react'
-
+import Huzaifa from "../assets/team/huzaifa.jpg";
+import Yusuf from "../assets/team/yusuf.jpg";
+import Huzaifa from "../assets/team/huzaifa.jpg";
+import Huzaifa from "../assets/team/huzaifa.jpg";
 const teamMembers = [
   {
-    name: 'Alex Johnson',
+    name: 'Huzaifa Shamim',
     role: 'Founder & Lead Developer',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
+    image: Huzaifa,
     bio: 'Full-stack developer with 8+ years of experience building scalable web applications. Passionate about clean code and user-centric design.',
     skills: ['React', 'Node.js', 'MongoDB', 'TypeScript'],
     social: {
-      linkedin: '#',
-      twitter: '#',
-      github: '#'
+      linkedin: 'https://www.linkedin.com/in/huzaifa-shamim-ahmad/',
+      github: 'https://github.com/HShamim30'
     }
   },
   {
-    name: 'Sarah Chen',
+    name: 'Yusuf Ali',
     role: 'UI/UX Design Lead',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80',
+    image: Yusuf,
     bio: 'Award-winning designer focused on creating intuitive digital experiences. Believes in the power of design thinking to solve complex problems.',
     skills: ['Figma', 'UI Design', 'Prototyping', 'User Research'],
     social: {
-      linkedin: '#',
-      twitter: '#',
+      linkedin: 'https://www.linkedin.com/in/syed-yusuf-275323390/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       github: '#'
     }
   },
   {
-    name: 'Marcus Williams',
+    name: 'Hamza Shabbir',
     role: 'Senior Frontend Developer',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80',
     bio: 'Frontend specialist with expertise in React ecosystem. Obsessed with performance optimization and accessibility.',
     skills: ['React', 'Next.js', 'Tailwind', 'JavaScript'],
     social: {
       linkedin: '#',
-      twitter: '#',
       github: '#'
     }
   },
   {
-    name: 'Emily Rodriguez',
+    name: 'Takmil Baddar',
     role: 'Backend Developer',
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80',
     bio: 'Backend engineer specializing in API design and database architecture. Advocates for secure and scalable solutions.',
     skills: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL'],
     social: {
       linkedin: '#',
-      twitter: '#',
-      github: '#'
-    }
-  },
-  {
-    name: 'David Kim',
-    role: 'DevOps Engineer',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
-    bio: 'Infrastructure specialist ensuring smooth deployments and optimal performance. Loves automating everything.',
-    skills: ['Docker', 'AWS', 'CI/CD', 'Linux'],
-    social: {
-      linkedin: '#',
-      twitter: '#',
-      github: '#'
-    }
-  },
-  {
-    name: 'Lisa Thompson',
-    role: 'SEO & Content Strategist',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80',
-    bio: 'SEO expert helping businesses rank higher and reach their target audience. Data-driven approach to content strategy.',
-    skills: ['SEO', 'Content Strategy', 'Analytics', 'Copywriting'],
-    social: {
-      linkedin: '#',
-      twitter: '#',
       github: '#'
     }
   }
