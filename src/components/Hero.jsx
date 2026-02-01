@@ -57,7 +57,7 @@ export default function Hero() {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/1234567890?text=Hi%20Webcraftix!%20I'm%20interested%20in%20starting%20a%20project."
+                href="https://wa.me/9769068742?text=Hi%20Webcraftix!%20I'm%20interested%20in%20starting%20a%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-500 text-white font-semibold rounded-full hover:shadow-xl hover:shadow-primary-500/25 transition-all duration-300 hover:-translate-y-1"
@@ -76,7 +76,7 @@ export default function Hero() {
 
             <div className="flex items-center gap-8 pt-4">
               <div>
-                <div className="text-3xl font-bold text-gray-900 dark:text-white">50+</div>
+                <div className="text-3xl font-bold text-gray-900 dark:text-white">10</div>
                 <div className="text-sm text-gray-500 dark:text-gray-400">Projects Delivered</div>
               </div>
               <div className="w-px h-12 bg-gray-200 dark:bg-gray-700"></div>
@@ -86,7 +86,7 @@ export default function Hero() {
               </div>
               <div className="w-px h-12 bg-gray-200 dark:bg-gray-700"></div>
               <div>
-                <div className="text-3xl font-bold text-gray-900 dark:text-white">5+</div>
+                <div className="text-3xl font-bold text-gray-900 dark:text-white">3+</div>
                 <div className="text-sm text-gray-500 dark:text-gray-400">Years Experience</div>
               </div>
             </div>
