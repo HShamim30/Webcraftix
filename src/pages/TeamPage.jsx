@@ -13,10 +13,11 @@ import {
   Coffee,
   Heart
 } from 'lucide-react'
-import Huzaifa from "../assets/team/huzaifa.jpg";
-import Yusuf from "../assets/team/yusuf.jpg";
-import Huzaifa from "../assets/team/huzaifa.jpg";
-import Huzaifa from "../assets/team/huzaifa.jpg";
+import Huzaifa from "../../Images/Formal.jpg";
+import Yusuf from "../../Images/Yusuf.jpeg";
+import Hamza from "../../Images/Formal.jpg";
+import Takmil from "../../Images/Yusuf.jpeg";
+
 const teamMembers = [
   {
     name: 'Huzaifa Shamim',
